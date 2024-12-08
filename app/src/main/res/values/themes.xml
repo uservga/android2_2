@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <style name="Base.Theme.Lab22Musyanovich" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">#4CAF50</item>
+        <item name="colorPrimaryVariant">#388E3C</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+
+        <item name="colorSecondary">#FF5722</item>
+        <item name="colorSecondaryVariant">#E64A19</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+
+
+        <item name="buttonStyle">@style/CustomButtonStyle</item>
+
+
+        <item name="colorSurface">#F5F5F5</item>
+        <item name="colorOnSurface">#212121</item>
+
+
+        <item name="android:statusBarColor">#388E3C</item>
+        <item name="android:navigationBarColor">#4CAF50</item>
+    </style>
+
+
+    <style name="Theme.Lab22Musyanovich" parent="Base.Theme.Lab22Musyanovich" />
+
+
+    <style name="CustomButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">#4CAF50</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:elevation">8dp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+</resources>
